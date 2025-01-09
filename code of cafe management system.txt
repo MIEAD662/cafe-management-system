@@ -1,0 +1,14 @@
+print("WELCOME PYTHON CAFE")
+foodmenu=("(FOOD-MANU)\n\tMAINCOURSE : \nBurger = 80 BDT \nSandwich = 50 BDT\nSpicy-Chicken = 200 BDT\n\tAPPETIZERS : \nFruit-Salad = "
+      "150\nNuggets = 100 BDT\nChocolate-Sandwich = 75 BDT\nFrench-Fries = 150 BDT\n\tBEVERAGES : \nMilk-shake = "
+      "40 BDT\nCoffee = 50 BDT\nChocolate-Tea = 90")
+menu=input("What can I do for you?\nTell me:")
+print(foodmenu)
+main_course=int(input("Enter Your MAINCOURSE food item price-BDT :"))
+appetizers=int(input("Enter Your APPETIZERS food item  price-BDT :"))
+beverages=int(input("Enter Your BEVERAGES food item price-BDT :"))
+total_bill= (main_course+appetizers+beverages)
+tk="BDT"
+print(total_bill,tk)
+
+print("Your Total Bill")
